@@ -13,11 +13,6 @@ public class Vehicle {
         this.brand = brand;
         this.model = model;
     }
-    public Vehicle(String brand, String model, int constructionYear){
-        this.brand = brand;
-        this.model = model;
-        this.constructionYear = constructionYear;
-    }
 
     public String getBrand(){
         return this.brand;
